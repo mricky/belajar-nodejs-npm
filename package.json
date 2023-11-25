@@ -1,0 +1,27 @@
+{
+  "name": "belajar-nodejs-npm",
+  "version": "1.0.0",
+  "description": "\"Belajar Nodejs NPM\"",
+  "scripts": {
+    "prestart": "echo 'Before Application Start",
+    "start" : "node index.js",
+    "poststart": "echo 'After Application Start",
+    "run" : "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./write" : "./write..js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mricky/belajar-nodejs-npm"
+  },
+  "keywords": [
+    "nodejs",
+    "npm"
+  ],
+  "type": "module",
+  "author": "Mochammad Ricky",
+  "license": "ISC"
+}
